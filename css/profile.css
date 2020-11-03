@@ -1,59 +1,67 @@
-.container-fluid{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 /* header css */
-.header{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
+.header {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar-anchor {
+  display: inline-block;
+  color: white !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important;
+}
+
+.navbar-anchor:hover {
+  background-color: #111;
+
+}
+
+@media only screen and (max-width: 600px) {
   .navbar-anchor {
-    display: inline-block;
-    color: white !important;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none !important;
+    padding: 14px 14px;
   }
-  
-   .navbar-anchor:hover {
-    background-color: #111;
-    
-  }
-  @media only screen and (max-width: 600px) {
-    .navbar-anchor{
-      padding: 14px 14px;
-    }
-  }
+}
 
-  /* footer section */
-#footer{
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #333;
-    color: #ddd;
-    margin-top: 20px;
-  }
-  .icon-footer i{
-    margin: 0 2% 3% 2%;
-  }
+/* footer section */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 2% 15%;
+  text-align: center;
+  background-color: #333;
+  color: #ddd;
 
-  @media only screen and (max-width: 600px) {
-    #footer{
-        margin-top: 100px;
-    }
-  }
-  
-  label{
-      display: block;
-  }
+}
 
-  /* form profile details */
-  section{
-      display: block;
-      width: 50%;
-      margin:40px auto;
+.icon-footer i {
+  margin: 0 2% 3% 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    position: sticky;
   }
+}
+
+
+
+label {
+  display: block;
+}
+
+/* form profile details */
+section {
+  display: block;
+  width: 50%;
+  margin: 40px auto;
+}
